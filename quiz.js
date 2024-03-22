@@ -2,15 +2,15 @@ const prompt = require('prompt-sync')();
 
 //Program 1: Temperature Converter
 // this prompts to enter any temperature in Farenheit
-let fahrenheit = prompt("Enter the temperature in Fahrenheit:");
+let fahrenheit = prompt("Enter any Temperature in Farenheit:");
 // This converts farenheit to celcius using the formula for conversion
 let celsius = (fahrenheit - 32) * 5 / 9;
 // This finally displays the temperature the farenheight temperature you inputed into celcius
-console.log("Equivalent temperature in Celsius: " + celsius + "°C");
+console.log("The equivalent temperature in celcius is: " + celsius + "°C");
 
 //Program 2: Grade Calculator
 // this prompts to enter a percentage score
-let percentage = prompt("Enter your percentage score:");
+let percentage = prompt("Enter the score you got on your test:");
 // this declares a varible to assign the percentage to
 let grade;
 // These determine the grade based on the percentage inputed
