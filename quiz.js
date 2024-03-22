@@ -10,7 +10,7 @@ console.log("The equivalent temperature in celcius is: " + celsius + "°C");
 
 //Program 2: Grade Calculator
 // this prompts to enter a percentage score
-let percentage = prompt("Enter the score you got on your test:");
+let percentage = prompt("Enter the percentage you got on your test:");
 // this declares a varible to assign the percentage to
 let grade;
 // These determine the grade based on the percentage inputed
